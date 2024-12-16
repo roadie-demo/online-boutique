@@ -10,7 +10,7 @@ metadata:
 spec:
   type: url
   targets:
-    - ./src/frondend/component.yaml
+    - ./src/frontend/component.yaml
     - ./src/adservice/component.yaml
     - ./src/cartservice/component.yaml
     - ./src/checkoutservice/component.yaml
@@ -20,7 +20,7 @@ spec:
     - ./src/productcatalogservice/component.yaml
     - ./src/recommendationservice/component.yaml
     - ./src/shippingservice/component.yaml
-    - ./src/shoppingassistservice/component.yaml
+    - ./src/shoppingassistantservice/component.yaml
 
 ---
 apiVersion: backstage.io/v1alpha1
