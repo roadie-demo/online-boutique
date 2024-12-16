@@ -53,3 +53,16 @@ metadata:
 spec:
   owner: group:roadie-demo/engineering
   domain: online-boutique-domain
+  hasPart:
+    - Component:online-boutique-ad-service
+    - Component:online-boutique-recommendation-service
+    - Component:online-boutique-product-catalog-service
+    - Component:online-boutique-cart-service
+    - Component:online-boutique-shipping-service
+    - Component:online-boutique-currency-service
+    - Component:online-boutique-frontend
+    - Component:online-boutique-payment-service
+    - Component:online-boutique-product-catalog-service
+    - Component:online-boutique-shopping-assistant-service
+    - Component:online-boutique-checkout-service
+    - Component:online-boutique-email-service
