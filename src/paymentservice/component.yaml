@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: online-boutique-payment-service
+  title: Online Boutique Payment Service
+  description: A cloud-first microservices demo application.
+  tags:
+    - node.js
+  annotations:
+    github.com/project-slug: roadie-demo/online-boutique
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:roadie-demo/engineering
+  lifecycle: production

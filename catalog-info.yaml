@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: online-boutique
+  title: Online Boutique
+  description: A cloud-first microservices demo application.
+  links:
+    - url: https://roadie.io/blog/backstage-monorepo-guide/
+      title: Register a Monorepo Tutorial
+spec:
+  type: url
+  targets:
+    - ./src/frondend/component.yaml
+    - ./src/adservice/component.yaml
+    - ./src/cartservice/component.yaml
+    - ./src/checkoutservice/component.yaml
+    - ./src/currencyservice/component.yaml
+    - ./src/emailservice/component.yaml
+    - ./src/paymentservice/component.yaml
+    - ./src/productcatalogservice/component.yaml
+    - ./src/recommendationservice/component.yaml
+    - ./src/shippingservice/component.yaml
+    - ./src/shoppingassistservice/component.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: online-boutique-redis-cache
+  description: The s3 bucket with the sample data in it. Doesn't really exist.
+spec:
+  type: redis-cache
+  owner: group:roadie-demo/engineering
+  system: online-boutique-system
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  title: Online Boutique Domain
+  name: online-boutique-domain
+  description: Sample domain which has stuff for demoing.
+spec:
+  owner: group:roadie-demo/engineering
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Online Boutique System
+  name: online-boutique-system
+  description: Sample things which are good for demoing.
+spec:
+  owner: group:roadie-demo/engineering
+  domain: online-boutique-domain

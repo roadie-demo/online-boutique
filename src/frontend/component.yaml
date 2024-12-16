@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: online-boutique-frontend
+  title: Online Boutique
+  description: A cloud-first microservices demo application.
+  tags:
+    - go
+  annotations:
+    github.com/project-slug: roadie-demo/online-boutique/src/
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: group:roadie-demo/solutions
+  lifecycle: production
+  dependsOn:
+    - Component:online-boutique-ad-service
+    - Component:online-boutique-recommendation-service
+    - Component:online-boutique-product-catalog-service
+    - Component:online-boutique-cart-service
+    - Component:online-boutique-shipping-service
+    - Component:online-boutique-currency-service
