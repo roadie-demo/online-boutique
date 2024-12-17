@@ -78,7 +78,8 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:roadie-demo/solutions
+  system: online-boutique-system
   apiConsumedBy:
-    - online-boutique-frontend
+    - Component:online-boutique-frontend
   definition:
     $text: ./docs/petstore.json

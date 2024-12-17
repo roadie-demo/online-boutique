@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-product-catalog-service
   title: Online Boutique Product Catalog Service
-  description: A cloud-first microservices demo application.
+  description: Provides the list of products from a JSON file and ability to search products and get individual products.
   tags:
     - go
   annotations:

@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-ad-service
   title: Online Boutique Ad Service
-  description: A cloud-first microservices demo application.
+  description: Provides text ads based on given context words.
   tags:
     - java
   annotations:

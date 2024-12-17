@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-payment-service
   title: Online Boutique Payment Service
-  description: A cloud-first microservices demo application.
+  description: Charges the given credit card info (mock) with the given amount and returns a transaction ID.
   tags:
     - node.js
   annotations:

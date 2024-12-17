@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-email-service
   title: Online Boutique Email Service
-  description: A cloud-first microservices demo application.
+  description: Sends users an order confirmation email (mock).
   tags:
     - python
   annotations:

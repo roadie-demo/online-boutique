@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-recommendation-service
   title: Online Boutique Recommendation Service
-  description: A cloud-first microservices demo application.
+  description: Recommends other products based on what's given in the cart.
   tags:
     - python
   annotations:

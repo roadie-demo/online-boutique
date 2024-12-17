@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-cart-service
   title: Online Boutique Cart Service
-  description: A cloud-first microservices demo application.
+  description: Stores the items in the user's shopping cart in Redis and retrieves it.
   tags:
     - c#
   annotations:

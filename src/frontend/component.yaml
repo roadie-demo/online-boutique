@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-frontend
   title: Online Boutique Frontend
-  description: A cloud-first microservices demo application.
+  description: Exposes an HTTP server to serve the website.
   tags:
     - go
   annotations:

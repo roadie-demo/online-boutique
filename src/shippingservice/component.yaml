@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-shipping-service
   title: Online Boutique Shipping Service
-  description: A cloud-first microservices demo application.
+  description: Gives shipping cost estimates based on the shopping cart.
   tags:
     - go
   annotations:

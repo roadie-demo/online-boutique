@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-shopping-assistant-service
   title: Online Boutique Shopping Assistant Service
-  description: A cloud-first microservices demo application.
+  description: An AI shopping assistant.
   tags:
     - python
   annotations:

@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: online-boutique-checkout-service
   title: Online Boutique Checkout Service
-  description: A cloud-first microservices demo application.
+  description: Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification.
   tags:
     - go
   annotations:
