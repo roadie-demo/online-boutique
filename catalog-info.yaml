@@ -66,3 +66,19 @@ spec:
     - Component:online-boutique-shopping-assistant-service
     - Component:online-boutique-checkout-service
     - Component:online-boutique-email-service
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: online-boutique-api
+  title: Online Boutique API
+  description: Sample things which are good for demoing.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:roadie-demo/solutions
+  apiConsumedBy:
+    - online-boutique-frontend
+  definition:
+    $text: ./docs/petstore.json
