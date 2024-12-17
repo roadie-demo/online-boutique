@@ -1,0 +1,18 @@
+site_name: Online Boutique
+repo_url: https://github.com/roadie-demo/online-boutique
+edit_uri: edit/main/docs
+
+nav:
+  - Home: index.md
+  - Cloudshell Tutorial: cloudshell-tutorial.md
+  - Deployment Stack: deploymentstack.md
+  - Development Guide: development-guide.md
+  - Product Requirements: product-requirements.md
+  - Purpose: purpose.md
+
+docs_dir: docs
+plugins:
+  - techdocs-core
+  - search
+  - print-site:
+      add_to_navigation: true
