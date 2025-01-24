@@ -11,5 +11,5 @@ spec:
   type: vendor
   owner: group:roadie-demo/solutions
   lifecycle: production
-  providesApis:
+  dependencyOf:
     - Component:online-boutique-payment-service
