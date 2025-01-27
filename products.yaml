@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Product
+metadata:
+  name: stripe
+  title: stripe
+  description: Stripe is the payment provider integrated into shopping cart.
+  links:
+    - url: https://www.stripe.com
+      title: Stripe Website
+spec:
+  type: vendor
+  owner: group:roadie-demo/solutions
+  lifecycle: production
+  dependencyOf:
+    - Component:online-boutique-payment-service
