@@ -9,6 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: roadie-demo/online-boutique
     backstage.io/techdocs-ref: dir:.
+    pagerduty.com/schedule-id: PVPDKQT
 spec:
   type: service
   owner: group:roadie-demo/engineering

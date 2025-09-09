@@ -13,3 +13,8 @@ spec:
   lifecycle: production
   dependencyOf:
     - Component:online-boutique-payment-service
+  billing:
+    startDate: "2024-02-28"
+    endDate: "2026-02-28"
+    renewalCycle: Annually
+    contractAmount: 36000
