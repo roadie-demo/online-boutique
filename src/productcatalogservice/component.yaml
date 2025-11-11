@@ -10,6 +10,7 @@ metadata:
     github.com/project-slug: roadie-demo/online-boutique
     backstage.io/techdocs-ref: dir:.
     pagerduty.com/schedule-id: PVPDKQT
+    newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
 spec:
   type: service
   owner: group:roadie-demo/engineering
