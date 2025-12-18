@@ -8,6 +8,7 @@ metadata:
     - go
   annotations:
     github.com/project-slug: roadie-demo/online-boutique
+    github.com/project-readme-path: ./src/productcatalogservice/README.md
     backstage.io/techdocs-ref: dir:.
     pagerduty.com/schedule-id: PVPDKQT
     newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
